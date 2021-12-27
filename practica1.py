@@ -9,14 +9,17 @@ print('Para el tipo de dato:', type(nombre))
 print('Para la longitud:', len(nombre))
 print('Este es el caracter por indice:', nombre[2], nombre[10])
 print('Rebanar cadena de los primeros 5', nombre[0:4])
+print('Revertir palabras', nombre[::-1])
 
 print(f'Cadena capitalizada: {nombre.capitalize()} para el primer caracter de toda la cadena')
 
 print(f'Cadena transformada a mayúsculas: {nombre.upper()}')
 print(f'Cadena transformada a minúsculas: {nombre.lower()}')
 
+print(f'Remplazar letra', nombre.replace('e', 'E'))
+
 print(f'Separar una cadena: {nombre.split(" ")}')
-print(f'Unir cadenas separadas: { " ".join(nombre.split(" ")) }')
+print(f'Unir cadenas separadas: { "-".join(nombre.split(" ")) }')
 
 print('\n====================\n')
 

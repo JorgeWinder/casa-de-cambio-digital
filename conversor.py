@@ -10,10 +10,6 @@ print("""
 ========================================
 """)
 
-# print("\n========================================")
-# print("======== Casa de cambio digital ========")
-# print("========================================\n")
-
 print(f'Tipo de cambio SUNAT para hoy {date.today()}\n')
 
 tipo_de_cambio = requests.get(f'https://api.apis.net.pe/v1/tipo-cambio-sunat?fecha={date.today()}').json()
