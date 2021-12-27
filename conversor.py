@@ -4,11 +4,15 @@ from datetime import date
 
 os.system('cls' if os.name == 'nt' else 'clear')
 
-print("\n========================================")
-print("======== Casa de cambio digital ========")
-print("========================================\n")
+print("""
+========================================
+======== Casa de cambio digital ========
+========================================
+""")
 
- 
+# print("\n========================================")
+# print("======== Casa de cambio digital ========")
+# print("========================================\n")
 
 print(f'Tipo de cambio SUNAT para hoy {date.today()}\n')
 
