@@ -62,6 +62,7 @@ print('\n====================\n')
 persona = {'Nombre': 'Jorge', 'Apellido': 'Winder', 'Edad': 33}
 print(persona)
 
+# for clave in persona.keys():
 for clave in persona:
     print(clave)
 
@@ -82,6 +83,12 @@ print('\n====================\n')
 for i in Lista:
     print(i)
 
+print('\n======= Recorrer una frase ==========\n')
+
+palabra = 'Esta es una frase'
+
+for letra in palabra:
+    print(letra)
 
 print('\n==== Estructura de control "While" ===\n')
 

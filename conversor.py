@@ -36,4 +36,8 @@ while monto is None:
         if monto is None:
             print(f'\n>>> Debe ingresar monto <<<<\n')
 
-input('-')
+
+input("\n\n>>> Presione la tecla 'ENTER' para salir")
+
+# API: fuente de datos de referencia
+# https://apis.net.pe/api-tipo-cambio.html
